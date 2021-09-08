@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginpage</title>
+    <!------------ stylesheet source ------------>
+    <link rel="stylesheet" href="login.css">
+    <!-------------------------->
+    <!------------ javascript source ------------>
+    <script text="text/javascript" src="login.js"></script>
+    <!-------------------------->
+</head>
+<!------------ begining of body ------------>
+<body>
+    <div class="wrapper">
+        <!------------ logo ------------>
+        <div class="logo">
+            <img src="gitlogos.png" alt="gitlogo">
+        </div>
+        <!-------------------------->
+        <!------------ header ------------>
+        <div class="title">
+            <p>Sign in to GitHub</p>
+        </div>
+        <!--------------------------->
+        <!------------ begining of form ------------>
+        <form action="#" onsubmit="validateform()">
+        <div class="form">
+            <!------------ username field ------------>
+            <div class="inputfield">
+                <label for="uid">Username or email address</label>
+                <input type="text" name="uid" id="uid" class="input">
+            </div>
+            <!-------------------------->
+            <!------------ password field ------------>
+            <div class="inputfield">
+                <label for="pwd">Password</label>
+                <input type="password" name="pwd" id="pwd" class="input">
+                <a href="#" class="forgot">Forgot password?</a>
+            </div>
+            <!-------------------------->
+            <!------------ submit button ------------>
+            <div class="btn">
+                <input type="submit" value="Sign in" class="signbtn">
+            </div>
+            <!-------------------------->
+        </div>
+        </form> 
+        <!------------ ending of form ------------>
+        <!------------ create new account------------>
+        <div class="crtacc">
+            <p>New to GitHub? <a href="#">Create an account.</a></p>
+        </div>
+        <!--------------------------->
+        <!------------ footer------------>
+        <div class="footer">
+            <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Contact GitHub</a></li>
+            </ul>
+        </div>
+        <!--------------------------->
+    </div>
+</body>
+<!------------ ending of body ------------>
+</html>
