@@ -31,7 +31,7 @@ a{
     height: 48px;
     margin: 0 auto;
 }
-.wrapper .title p{
+.wrapper .title h2{
     margin-bottom: 15px;
     margin-top: 20px;
     font-size: 24px;
